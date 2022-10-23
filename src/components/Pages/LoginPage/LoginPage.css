@@ -1,0 +1,32 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FEFCF5;
+}
+
+.login-page--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 368px;
+  padding: 0px 10px;
+}
+
+.button-login {
+  margin-top: 20px;
+}
+
+.login-page__header {
+  margin: 0px 0px 40px 0px;
+}
+
+.input-login {
+  margin-top: 15px;
+}
+
+.input-login:first-child {
+  margin-top: 0px;
+}
