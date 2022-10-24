@@ -3,7 +3,7 @@ import React from 'react';
 import './ButtonCustom.css';
 
 interface ButtonCustomProps {
-  children: string;
+  children: string | React.ReactNode;
   classes: string
 }
 
