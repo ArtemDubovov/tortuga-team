@@ -1,0 +1,95 @@
+.post {
+  max-width: 450px;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.post__image-wrapper {
+  width: 100%;
+}
+
+.post__image {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15));
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post__type {
+  margin: 20px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.post__title {
+  margin: 8px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.post__subtitle {
+  padding: 0px;
+  margin: 14px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  max-width: 320px;
+  word-wrap: break-word;
+}
+
+.post__rating-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post__rating-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.post__rate-list {
+  margin: 0px;
+  padding-left: 5px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 112px;
+}
+
+.post__users {
+  margin-top: 28px;
+}
+
+.post__users-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.post__buttons-wrapper {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}

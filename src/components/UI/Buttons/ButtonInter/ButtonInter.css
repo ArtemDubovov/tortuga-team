@@ -27,3 +27,20 @@
   background: #222222;
   color: #FEFCF5;
 }
+
+.button-inter.button-color-dark {
+  border: none;
+  background: #2E72DB;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.button-inter.button-color-light {
+  color: #2E72DB;
+  border: 1px solid #2E72DB;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}

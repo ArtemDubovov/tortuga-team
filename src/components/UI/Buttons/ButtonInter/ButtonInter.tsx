@@ -5,6 +5,8 @@ import './ButtonInter.css';
 export enum ButtonStatus {
   Light = 'button-light',
   Dark = 'button-dark',
+  ColorLight = 'button-color-light',
+  ColorDark = 'button-color-dark'
 }
 
 interface ButtonAddPostProps {
