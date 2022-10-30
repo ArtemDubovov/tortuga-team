@@ -1,16 +1,16 @@
-export interface User {
+export interface UserInterface {
   name: string;
   image: string;
   age: number;
   email: string;
 }
 
-export interface Post {
+export interface PostInterface {
   image: string;
   title: string;
   subtitle: string;
   rating: number;
   type: string;
-  users: User[];
-  author: User;
+  users: UserInterface[];
+  author: UserInterface;
 }

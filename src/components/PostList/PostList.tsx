@@ -4,7 +4,7 @@ import './PostList.css';
 
 import Post from '../Post/Post';
 
-import { Post as PostInterface } from './../../types/types';
+import { PostInterface } from './../../types/types';
 
 interface PostListProps {
   items: PostInterface[]

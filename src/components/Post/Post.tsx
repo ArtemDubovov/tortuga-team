@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Post.css';
 
-import { Post as PostInterface } from '../../types/types';
+import { PostInterface } from '../../types/types';
 import {ButtonStatus} from './../UI/Buttons/ButtonInter/ButtonInter';
 import ButtonInter from './../UI/Buttons/ButtonInter';
 

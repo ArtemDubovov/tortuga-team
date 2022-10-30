@@ -1,5 +1,6 @@
 .post {
   max-width: 450px;
+  min-height: 612px;
   background: #FFFFFF;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
@@ -14,7 +15,7 @@
 
 .post__image {
   width: 100%;
-  height: auto;
+  min-height: 260px;
   filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.15));
   border-radius: 8px;
   overflow: hidden;
@@ -91,5 +92,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  gap: 10px;
 }

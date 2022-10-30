@@ -10,6 +10,18 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
+  position: relative;
+}
+
+.search-panel__wrapper {
+  max-width: 944px;
+  height: 43px;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  position: relative;
+  flex: 1 1 auto;
 }
 
 .search-panel::placeholder {
@@ -17,4 +29,14 @@
   font-size: 12px;
   line-height: 12px;
   color: #969696;
+}
+
+.search-panel__wrapper::after {
+  z-index: 10;
+  content: url('./../../../assets/icons/search.svg');
+  position: absolute;
+  left: 16px;
+  top: 11px;
+  width: 40px;
+  height: 50px;
 }

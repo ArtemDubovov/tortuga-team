@@ -8,7 +8,9 @@ interface SearchPanelProps {
 
 const SearchPanel: React.FC<SearchPanelProps> = ({placeholder}) => {
   return (
-    <input className='search-panel' type='search' placeholder={placeholder}/>
+    <div className='search-panel__wrapper'>
+      <input className='search-panel' type='search' placeholder={placeholder}/>
+    </div>
   );
 };
 

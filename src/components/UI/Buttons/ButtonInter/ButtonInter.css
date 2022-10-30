@@ -29,7 +29,10 @@
 }
 
 .button-inter.button-color-dark {
+  height: 35px;
   border: none;
+  width: 100%;
+  padding: 10px 0px 9px;
   background: #2E72DB;
   color: #FFFFFF;
   font-weight: 400;
@@ -38,7 +41,11 @@
 }
 
 .button-inter.button-color-light {
+  height: 35px;
   color: #2E72DB;
+  width: 100%;
+  padding: 10px 0px 9px;
+  background: transparent;
   border: 1px solid #2E72DB;
   font-weight: 400;
   font-size: 14px;

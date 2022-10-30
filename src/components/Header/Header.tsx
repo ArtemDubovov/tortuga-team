@@ -17,7 +17,7 @@ const Header: React.FC = () => {
   return (
     <div className='container'>
       <header className='header'>
-        <a className='header-logo' href='/Home'>
+        <a className='header-logo' href='/'>
           <img src={logoImage} alt='logo'></img>
         </a>
         <SearchPanel placeholder='рецепт, место, ключевое слово, грибы, лес, озеро'/>
