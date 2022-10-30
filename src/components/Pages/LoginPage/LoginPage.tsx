@@ -1,7 +1,7 @@
 import React from 'react';
 
 import InputCustom from '../../UI/InputCustom/InputCustom';
-import ButtonCustom from '../../UI/ButtonCustom/ButtonCustom';
+import ButtonCustom from '../../UI/Buttons/ButtonCustom';
 
 import LogoImage from './../../../assets/icons/tortugaLogo.svg';
 import './LoginPage.css';

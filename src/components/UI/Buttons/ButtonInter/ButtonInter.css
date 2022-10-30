@@ -1,0 +1,29 @@
+.button-inter {
+  min-width: 43px;
+  height: 43px;
+  border: 1px solid #222222;
+  border-radius: 6px;
+  position: relative;
+  padding: 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 20px 0px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  white-space: nowrap;
+  line-height: 14px;
+}
+
+.button-inter.button-light {
+  background: transparent;
+  color: #222222;
+}
+
+.button-inter.button-dark {
+  background: #222222;
+  color: #FEFCF5;
+}

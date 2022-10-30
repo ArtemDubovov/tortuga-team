@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-flow: nowrap row;
+}
+
+.header-logo {
+  margin: 8px 24px 0px 0px ;
+}

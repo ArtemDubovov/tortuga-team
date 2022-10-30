@@ -1,0 +1,20 @@
+.search-panel {
+  max-width: 944px;
+  height: 43px;
+  border-radius: 8px;
+  background: #E4E3DC;
+  width: 100%;
+  border: none;
+  padding: 2px 0px 0px 47px;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.search-panel::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #969696;
+}
