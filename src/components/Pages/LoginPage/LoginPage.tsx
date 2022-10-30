@@ -18,9 +18,11 @@ const LoginPage: React.FC = () => {
           <InputCustom type="email" classes='input-login' placeholder='e-mail' isRequired={true} title='test'/>
           <InputCustom type="password" classes='input-login' placeholder='пароль' isRequired={true} />
           <InputCustom type="text" classes='input-login' placeholder='кодовое слово' isRequired={true} />
-          <ButtonCustom classes='button-custom'>
-            <Link className='button-custom' to='/Home'>test</Link>
-          </ButtonCustom>
+          <Link className='button-custom' to='/Home'>войти</Link>
+          {/* Тест для роутинга на главную страницу */}
+          {/* <ButtonCustom classes='button-custom'>
+            войти
+          </ButtonCustom> */}
           
         </form>
       </div>
