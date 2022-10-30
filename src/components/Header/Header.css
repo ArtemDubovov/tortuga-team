@@ -10,3 +10,9 @@
 .header-logo {
   margin: 8px 24px 0px 0px ;
 }
+
+@media (max-width: 720px) {
+  .header {
+    flex-direction: column;
+  }
+}

@@ -94,3 +94,12 @@
   align-items: center;
   gap: 10px;
 }
+
+@media (max-width: 720px) {
+  .post {
+    min-height: 320px;
+  }
+  .post__image {
+    min-height: 100px;
+  }
+}

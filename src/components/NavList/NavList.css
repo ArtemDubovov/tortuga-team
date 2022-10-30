@@ -16,3 +16,10 @@
   color: #222222;
   text-decoration: none;
 }
+
+@media (max-width: 720px) {
+  .nav-list {
+    flex-direction: column;
+    margin: 0px;
+  }
+}
