@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './NavList.css';
 
@@ -17,7 +18,7 @@ const NavLink: React.FC<NavLinkProps> = ({links}) => {
       <ul className='nav-list'>
         {links.map(link =>
           <li className='nav-item' key={link.name}>
-            <a className='nav-item__link' href={link.link}>{link.name}</a>
+            <Link className='nav-item__link' to={link.link}>{link.name}</Link>
           </li>
         )}
       </ul>

@@ -5,21 +5,22 @@ import SearchPanel from '../UI/SearchPanel';
 import ButtonInter from '../UI/Buttons/ButtonInter';
 import { ButtonStatus } from '../UI/Buttons/ButtonInter/ButtonInter';
 import NavList from './../NavList';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   const links = [
-    {name: 'Поездки', link: ''},
-    {name: 'Посиделки', link: ''},
-    {name: 'Рецепты', link: ''},
-    {name: 'О нас', link: ''},
-    {name: 'Мои друзья', link: ''},
+    {name: 'Поездки', link: '/Travels'},
+    {name: 'Посиделки', link: '/Gatherings'},
+    {name: 'Рецепты', link: '/Recipes'},
+    {name: 'О нас', link: '/About'},
+    {name: 'Мои друзья', link: '/MyFriends'},
   ]
   return (
     <div className='container'>
       <header className='header'>
-        <a className='header-logo' href='/'>
+        <Link className='header-logo' to='/Home'>
           <img src={logoImage} alt='logo'></img>
-        </a>
+        </Link>
         <SearchPanel placeholder='рецепт, место, ключевое слово, грибы, лес, озеро'/>
         <ButtonInter status={ButtonStatus.Light} Content=''/>
         <ButtonInter status={ButtonStatus.Dark} Content='Избранное'/>

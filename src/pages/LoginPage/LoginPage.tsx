@@ -1,9 +1,9 @@
 import React from 'react';
 
-import InputCustom from '../../UI/InputCustom/InputCustom';
-import ButtonCustom from '../../UI/Buttons/ButtonCustom';
+import InputCustom from '../../components/UI/InputCustom/InputCustom';
+import ButtonCustom from '../../components/UI/Buttons/ButtonCustom';
 
-import LogoImage from './../../../assets/icons/tortugaLogo.svg';
+import LogoImage from './../../assets/icons/tortugaLogo.svg';
 import './LoginPage.css';
 import { Link, NavLink } from 'react-router-dom';
 

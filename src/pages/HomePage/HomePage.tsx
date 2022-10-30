@@ -2,15 +2,15 @@ import React from "react";
 
 import "./HomePage.css";
 
-import Header from "./../../Header";
-import PostList from "./../../PostList";
-import testPhoto from "./../../../assets/photo/test.jpg";
-import testAvatar from "./../../../assets/users/test-logo2.jpg";
-import TestLastPost from "./../../../assets/photo/test-last-post.jpg";
+import Header from "../../components/Header";
+import PostList from "../../components/PostList";
+import testPhoto from "./../../assets/photo/test.jpg";
+import testAvatar from "./../../assets/users/test-logo2.jpg";
+import TestLastPost from "./../../assets/photo/test-last-post.jpg";
 
-import { PostInterface, UserInterface } from "../../../types/types";
-import Footer from "../../Footer";
-import LastPost from "../../LastPost";
+import { PostInterface, UserInterface } from "../../types/types";
+import Footer from "../../components/Footer";
+import LastPost from "../../components/LastPost";
 
 const HomePage:React.FC = () => {
   const posts: PostInterface[] = [
@@ -55,7 +55,7 @@ const HomePage:React.FC = () => {
   const lastPost = posts[posts.length - 1];
 
   return (
-    <div>
+    <div className="home-page">
       <Header />
       <div className="container">
         <h1>Последние публикации</h1>
